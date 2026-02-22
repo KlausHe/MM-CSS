@@ -1,3 +1,3 @@
 # MM-CSS
 
-[Link to website](https://github.com/KlausHe/MM-CSS.git)
+[Link for submodule usage](https://github.com/KlausHe/MM-CSS.git)
