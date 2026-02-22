@@ -145,6 +145,11 @@ dialog::backdrop {
   background-color: hsl(var(--bgcBackground) / 0.8);
 }
 
+dialog div {
+  max-width: var(--UIWidth16);
+  padding: var(--padding);
+}
+
 input,
 button,
 textarea {
@@ -179,6 +184,11 @@ ul {
   list-style-position: inside;
 }
 
+li {
+  max-width: var(--UIWidth16);
+  margin: var(--padding);
+}
+
 div {
   padding: 0;
   margin: 0;
@@ -200,6 +210,7 @@ fieldset {
   display: grid;
   grid-gap: var(--padding);
 }
+
 h1 {
   font-size: var(--fontSizeLarge);
   font-weight: var(--fontWeight);
